@@ -1,0 +1,34 @@
+.section-top{
+    display:flex;
+    flex-direction:column
+}
+@media print {
+    @media print {
+    
+        body {
+            font-family:georgia, serif;
+            font-size:12px !important;
+
+        }
+        .title-box{
+            page-break-after:none;
+        }
+
+        }
+        .section-top table{
+
+            font-size:16px !important; 
+        }
+        
+        .section{
+            padding:0 !important;   
+        }
+        .section-footer{
+            margin-top: 2rem;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        
+}
